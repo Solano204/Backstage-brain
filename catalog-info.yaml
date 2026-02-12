@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sidpia-backend
+  description: AI-powered plagiarism detection module
+  annotations:
+    # IMPORTANT: Change this to YOUR github username and repo name
+    github.com/project-slug: carlos-lopez/sidpia-java-backend
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:carlos-lopez # This should match your GitHub username
