@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: backstage-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: backstage
+      POSTGRES_DB: backstage
+    ports:
+      - "5436:5432"  # Changed from 5432:5432
+    volumes:
+      - backstage-data:/var/lib/postgresql/data
+
+volumes:
+  backstage-data:

@@ -1,13 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage
-  description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  name: sidpia-portal
+  description: Modular portal for the SIDPIA project with AI plagiarism detection.
+  annotations:
+    # This links your Backstage entity to your GitHub repo
+    github.com/project-slug: your-github-username/your-repo-name
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: website
-  owner: john@example.com
+  type: service
   lifecycle: experimental
+  owner: carlos-lopez # Updated to your name
+  system: sidpia-ecosystem
