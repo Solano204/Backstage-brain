@@ -3,6 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Neobank" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/template/skeleton/Neobank" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Neobank/templates/skeleton/Neobank" vcs="Git" />
   </component>
 </project>
