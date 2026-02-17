@@ -71,8 +71,6 @@ spec:
       name: Publish to GitHub
       action: publish:github
       input:
-        allowedHosts:
-          - github.com
         description: ${{ parameters.description }}
         repoUrl: ${{ parameters.destination }}
         defaultBranch: main
