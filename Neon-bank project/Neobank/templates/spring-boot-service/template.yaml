@@ -48,7 +48,7 @@ spec:
       properties:
         destination:
           title: GitHub Repository
-          type: object
+          type: string
           ui:field: RepoUrlPicker
           ui:options:
             allowedHosts:
